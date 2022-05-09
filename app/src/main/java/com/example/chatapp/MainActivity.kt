@@ -3,8 +3,10 @@ package com.example.chatapp
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.chatapp.databinding.ActivityMainBinding
+import dagger.hilt.android.AndroidEntryPoint
 
 //api key bfp5cus8ztph
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
